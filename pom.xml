@@ -2,26 +2,35 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+	<!-- 版本的声明，这样做可以一次性统一升级所有地方版本信息 -->
 	<properties>
-		<junit.version>4.7</junit.version>	
+		<junit.version>4.7</junit.version>
 		<project.version>0.0.1-SNAPSHOT</project.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
-	
+
+	<!-- 项目坐标配置 -->
 	<groupId>edu.hebeu.dftsms</groupId>
 	<artifactId>dftsms</artifactId>
 	<version>${project.version}</version>
 	<name>Archetype - hjhg</name>
 	<url>http://maven.apache.org</url>
 	<packaging>pom</packaging>
-	
+
+	<!-- 项目依赖的声明，注意这是顶级依赖配置，再此配置后，在模块中如果想引用，只需要注明依赖的groupId和artifactId即可 -->
 	<dependencyManagement>
 		<dependencies>
-	    <dependency>
-	      <groupId>junit</groupId>
-	      <artifactId>junit</artifactId>
-	      <version>${junit.version}</version>
-	      <scope>test</scope>
-	    </dependency>
-	  </dependencies>
+			<!-- 添加JUnit测试依赖 -->
+			<dependency>
+				<groupId>junit</groupId>
+				<artifactId>junit</artifactId>
+				<version>${junit.version}</version>
+				<scope>test</scope>
+			</dependency>
+		</dependencies>
 	</dependencyManagement>
+	<!-- 模块配置 -->
+	<modules>
+		<module>dftsms-web</module>
+	</modules>
 </project>
