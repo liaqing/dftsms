@@ -1,0 +1,74 @@
+# 注：下面书写的依赖都是其artifactId #
+##############################################
+# Struts2还依赖一些commons组件，可在common组件集中找到    #
+##############################################
+# Struts2依赖 #
+struts2-core
+freemarker
+ognl
+xwork-core
+-----------------------------------------------
+# Hibernate核心依赖 #
+hibernate-core
+hibernate-commons-annotations #使用注解开发
+antlr
+dom4j
+classmate
+geronimo-jta_1.1_spec
+hibernate-jpa-2.1-api
+jboss-logging
+-----------------------------------------------
+# Spring依赖 #
+spring-aop
+spring-aspects
+spring-beans
+spring-context
+spring-context-support
+spring-core
+spring-expression
+spring-instrument
+spring-instrument-tomcat
+spring-jdbc
+spring-jms
+spring-messaging
+spring-orm
+spring-oxm
+spring-test
+spring-tx
+spring-web
+spring-webmvc
+spring-webmvc-portlet
+spring-websocket
+-----------------------------------------------
+# Hibernate其它依赖包 #
+jboss-interceptors-api_1.1_spec
+jsr250
+javax.inject
+jandex
+el-api
+cdi-api
+#Hibernate:envers
+hibernate-envers
+#Hibernate:jpa-metamodel-generator
+hibernate-jpamodelgen
+-----------------------------------------------
+# javassist依赖 #
+javassist
+# 注Struts2与Hibernate都对其有依赖 #
+-----------------------------------------------
+# 日志依赖 #
+log4j
+slf4j-api
+slf4j-simple
+slf4j-log4j12
+commons-logging
+-----------------------------------------------
+# commons组件 #
+commons-logging
+commons-fileupload
+commons-io
+commons-lang3
+-----------------------------------------------
+# 测试依赖 #
+junit
+-----------------------------------------------
