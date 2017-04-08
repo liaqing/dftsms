@@ -56,7 +56,7 @@
 
 第一步：
 
-![图片01](tu_01)
+![图片01](https://github.com/fxb577328725/dftsms/blob/master/PictureOf_README/tu_01.png)
 
 第二步：
 
