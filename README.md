@@ -93,12 +93,12 @@
 [01]:http://blog.csdn.net/fanxiaobin577328725/article/details/69661325
 [02]:https://github.com/fxb577328725/dftsms.git
 
-[tu_01]:https://github.com/fxb577328725/dftsms/raw/master/PictureOf_README/tu_01.png
-[tu_02]:https://github.com/fxb577328725/dftsms/raw/master/PictureOf_README/tu_02.png
-[tu_03]:https://github.com/fxb577328725/dftsms/raw/master/PictureOf_README/tu_03.png
-[tu_04]:https://github.com/fxb577328725/dftsms/raw/master/PictureOf_README/tu_04.png
-[tu_05]:https://github.com/fxb577328725/dftsms/raw/master/PictureOf_README/tu_05.png
-[tu_06]:https://github.com/fxb577328725/dftsms/raw/master/PictureOf_README/tu_06.png
-[tu_07]:https://github.com/fxb577328725/dftsms/raw/master/PictureOf_README/tu_07.png
-[tu_08]:https://github.com/fxb577328725/dftsms/raw/master/PictureOf_README/tu_08.png
-[tu_09]:https://github.com/fxb577328725/dftsms/raw/master/PictureOf_README/tu_09.png
+[tu_01]:https://github.com/fxb577328725/dftsms/blob/master/PictureOf_README/tu_01.png
+[tu_02]:https://github.com/fxb577328725/dftsms/blob/master/PictureOf_README/tu_02.png
+[tu_03]:https://github.com/fxb577328725/dftsms/blob/master/PictureOf_README/tu_03.png
+[tu_04]:https://github.com/fxb577328725/dftsms/blob/master/PictureOf_README/tu_04.png
+[tu_05]:https://github.com/fxb577328725/dftsms/blob/master/PictureOf_README/tu_05.png
+[tu_06]:https://github.com/fxb577328725/dftsms/blob/master/PictureOf_README/tu_06.png
+[tu_07]:https://github.com/fxb577328725/dftsms/blob/master/PictureOf_README/tu_07.png
+[tu_08]:https://github.com/fxb577328725/dftsms/blob/master/PictureOf_README/tu_08.png
+[tu_09]:https://github.com/fxb577328725/dftsms/blob/master/PictureOf_README/tu_09.png
