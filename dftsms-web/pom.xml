@@ -15,11 +15,28 @@
 	<description>此模块包含了所有前端显示的所有资源，通俗来说就是表现层。</description>
 
 	<dependencies>
-		<!-- 引入JUnit依赖 -->
+		<!-- 导入JUnit -->
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
+			<scope>test</scope>
 		</dependency>
+		<!-- 导入URL Rewrite -->
+		<dependency>
+			<groupId>org.tuckey</groupId>
+			<artifactId>urlrewritefilter</artifactId>
+		</dependency>
+		<!-- 开始：导入JSTL -->
+		<dependency>
+			<groupId>org.apache.taglibs</groupId>
+			<artifactId>taglibs-standard-spec</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.taglibs</groupId>
+			<artifactId>taglibs-standard-impl</artifactId>
+		</dependency>
+		<!-- 结束：导入JSTL -->
+
 	</dependencies>
 	<build>
 		<plugins>
@@ -30,6 +47,7 @@
 				<configuration>
 					<source>1.8</source>
 					<target>1.8</target>
+					<encoding>${project.build.sourceEncoding}</encoding>
 				</configuration>
 			</plugin>
 		</plugins>

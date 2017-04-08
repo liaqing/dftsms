@@ -90,8 +90,3 @@
 第九步：
 
 ![图片08](https://github.com/fxb577328725/dftsms/blob/master/PictureOf_README/tu_09.png)
-
-
-![美丽花儿][flower]
-
-[flower]:http://ww2.sinaimg.cn/large/56d258bdjw1eugeubg8ujj21kw16odn6.jpg  "美丽花儿"
