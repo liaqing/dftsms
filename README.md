@@ -4,13 +4,11 @@
 
 # 开发技术
 
-***************
 
 &#8195;&#8195;项目开发是基于JavaEE技术，前端采用JSP、EL表达式、JQuery、JavaScript等技术，后台采用经典的三大框架技术，由于当前项目不是上线项目，所以采用的是中小型数据库MySQL。该项目使用git在GitHub上进行协同开发，并且采用的是Maven项目进行项目的构建管理。除此之外还利用到的技术点包括：JUnit 4.x、JSON、URL Rewrite等技术
 
 # 开发工具
 
-***************
 
 * Eclipse Java EE IDE for Web Developers — Version: Neon.3 Release (4.6.3)
 * Apache Tomcat - Version：8.0.43
@@ -27,7 +25,6 @@
 
 # 模块说明
 
-***************
 
 &#8195;&#8195;项目由于是多人协同开发，所以采用的是分模块是开发，这样既可以将个人代码进行分离便于维护，同时可以使多人进行同时开发提高效率。
 
@@ -96,12 +93,12 @@
 [01]:http://blog.csdn.net/fanxiaobin577328725/article/details/69661325
 [02]:https://github.com/fxb577328725/dftsms.git
 
-[tu_01]:https://github.com/fxb577328725/dftsms/Picture Of README/tu_01
-[tu_02]:https://github.com/fxb577328725/dftsms/Picture Of README/tu_02
-[tu_03]:https://github.com/fxb577328725/dftsms/Picture Of README/tu_03
-[tu_04]:https://github.com/fxb577328725/dftsms/Picture Of README/tu_04
-[tu_05]:https://github.com/fxb577328725/dftsms/Picture Of README/tu_05
-[tu_06]:https://github.com/fxb577328725/dftsms/Picture Of README/tu_06
-[tu_07]:https://github.com/fxb577328725/dftsms/Picture Of README/tu_07
-[tu_08]:https://github.com/fxb577328725/dftsms/Picture Of README/tu_08
-[tu_09]:https://github.com/fxb577328725/dftsms/Picture Of README/tu_09
+[tu_01]:https://github.com/fxb577328725/dftsms/PictureOf_README/tu_01
+[tu_02]:https://github.com/fxb577328725/dftsms/PictureOf_README/tu_02
+[tu_03]:https://github.com/fxb577328725/dftsms/PictureOf_README/tu_03
+[tu_04]:https://github.com/fxb577328725/dftsms/PictureOf_README/tu_04
+[tu_05]:https://github.com/fxb577328725/dftsms/PictureOf_README/tu_05
+[tu_06]:https://github.com/fxb577328725/dftsms/PictureOf_README/tu_06
+[tu_07]:https://github.com/fxb577328725/dftsms/PictureOf_README/tu_07
+[tu_08]:https://github.com/fxb577328725/dftsms/PictureOf_README/tu_08
+[tu_09]:https://github.com/fxb577328725/dftsms/PictureOf_README/tu_09
