@@ -41,7 +41,7 @@
 # 代码导入
 &#8195;&#8195;因为开发的IDE环境是Eclipse，所以演示只将代码导入到Eclipse中，过程如下：
 
-1. 拷贝当前项目的[web URL](https://github.com/fxb577328725/dftsms.git)
+1. 拷贝当前项目的web URL：[https://github.com/fxb577328725/dftsms.git](https://github.com/fxb577328725/dftsms.git)
 2. 打开git透视图：Window -> perspective -> Open perspective -> Other(其实最简单的是Eclipse左上角的快捷方式)
 3. 将项目克隆下来：选中Clone a Git repository,然后输入URL，以及自己的账号密码，下一步，直到最后可选择性的修改保存路径，并保存即可。
 4. 将项目导入Eclipse：在git透视图中选中克隆项目 -> 右击 -> Import Project ,然后直接finish即可。然后可以切换到Java或JavaEE透视图，即可看到导入的项目
