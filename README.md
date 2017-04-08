@@ -35,13 +35,13 @@
 ## web模块
 
 &#8195;&#8195;当前模块存放的是所有PC端前台所需要的所有代码文件，包含JSP、CSS、JQuery、JavaScript等代码文件。
-&#8195;&#8195;该模块使用Maven的maven-archetype-webapp进行创建，但是由于其使用的Servlet版本过低，所以创建完成后，需要更改Servlet版本，以及Java编译版本。这部分可参考：[Dynamic Web开发之版本分析](01)
+&#8195;&#8195;该模块使用Maven的maven-archetype-webapp进行创建，但是由于其使用的Servlet版本过低，所以创建完成后，需要更改Servlet版本，以及Java编译版本。这部分可参考：[Dynamic Web开发之版本分析](http://blog.csdn.net/fanxiaobin577328725/article/details/69661325)
 
 
 # 代码导入
 &#8195;&#8195;因为开发的IDE环境是Eclipse，所以演示只将代码导入到Eclipse中，过程如下：
 
-1. 拷贝当前项目的[web URL](02)
+1. 拷贝当前项目的[web URL](https://github.com/fxb577328725/dftsms.git)
 2. 打开git透视图：Window -> perspective -> Open perspective -> Other(其实最简单的是Eclipse左上角的快捷方式)
 3. 将项目克隆下来：选中Clone a Git repository,然后输入URL，以及自己的账号密码，下一步，直到最后可选择性的修改保存路径，并保存即可。
 4. 将项目导入Eclipse：在git透视图中选中克隆项目 -> 右击 -> Import Project ,然后直接finish即可。然后可以切换到Java或JavaEE透视图，即可看到导入的项目
@@ -60,45 +60,32 @@
 
 第二步：
 
-![图片02](tu_02)
+![图片02](https://github.com/fxb577328725/dftsms/blob/master/PictureOf_README/tu_02.png)
 
 第三步：
 
-![图片03](tu_03)
+![图片03](https://github.com/fxb577328725/dftsms/blob/master/PictureOf_README/tu_03.png)
 
 第四步：
 
-![图片04](tu_04)
+![图片04](https://github.com/fxb577328725/dftsms/blob/master/PictureOf_README/tu_04.png)
 
 第五步：
 
-![图片05](tu_05)
+![图片05](https://github.com/fxb577328725/dftsms/blob/master/PictureOf_README/tu_05.png)
 
 第六步：
 
-![图片06](tu_06)
+![图片06](https://github.com/fxb577328725/dftsms/blob/master/PictureOf_README/tu_06.png)
 
 第七步：
 
-![图片07](tu_07)
+![图片07](https://github.com/fxb577328725/dftsms/blob/master/PictureOf_README/tu_07.png)
 
 第八步：
 
-![图片08](tu_08)
+![图片08](https://github.com/fxb577328725/dftsms/blob/master/PictureOf_README/tu_08.png)
 
 第九步：
 
-![图片08](tu_09)
-
-[01]:http://blog.csdn.net/fanxiaobin577328725/article/details/69661325
-[02]:https://github.com/fxb577328725/dftsms.git
-
-[tu_01]:https://github.com/fxb577328725/dftsms/blob/master/PictureOf_README/tu_01.png
-[tu_02]:https://github.com/fxb577328725/dftsms/blob/master/PictureOf_README/tu_02.png
-[tu_03]:https://github.com/fxb577328725/dftsms/blob/master/PictureOf_README/tu_03.png
-[tu_04]:https://github.com/fxb577328725/dftsms/blob/master/PictureOf_README/tu_04.png
-[tu_05]:https://github.com/fxb577328725/dftsms/blob/master/PictureOf_README/tu_05.png
-[tu_06]:https://github.com/fxb577328725/dftsms/blob/master/PictureOf_README/tu_06.png
-[tu_07]:https://github.com/fxb577328725/dftsms/blob/master/PictureOf_README/tu_07.png
-[tu_08]:https://github.com/fxb577328725/dftsms/blob/master/PictureOf_README/tu_08.png
-[tu_09]:https://github.com/fxb577328725/dftsms/blob/master/PictureOf_README/tu_09.png
+![图片08](https://github.com/fxb577328725/dftsms/blob/master/PictureOf_README/tu_09.png)
