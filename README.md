@@ -35,6 +35,7 @@
 ## 3.1 web模块 ##
 
 &#8195;&#8195;当前模块存放的是所有PC端前台所需要的所有代码文件，包含JSP、CSS、JQuery、JavaScript等代码文件。
+
 &#8195;&#8195;该模块使用Maven的maven-archetype-webapp进行创建，但是由于其使用的Servlet版本过低，所以创建完成后，需要更改Servlet版本，以及Java编译版本。这部分可参考：[Dynamic Web开发之版本分析](http://blog.csdn.net/fanxiaobin577328725/article/details/69661325)
 
 
@@ -89,3 +90,7 @@
 第九步：
 
 ![图片08](https://github.com/fxb577328725/dftsms/blob/master/PictureOf_README/tu_09.png)
+
+
+![美丽花儿][flower]
+[flower]:http://ww2.sinaimg.cn/large/56d258bdjw1eugeubg8ujj21kw16odn6.jpg  "美丽花儿"
