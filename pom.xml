@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<!-- 版本的声明，这样做可以一次性统一升级所有地方版本信息 -->
 	<properties>
@@ -14,6 +13,7 @@
 		<struts2.version>2.3.32</struts2.version>
 		<urlrewritefilter.version>4.0.3</urlrewritefilter.version>
 		<JSTL.version>1.2.5</JSTL.version>
+		<mysql.connector.version>5.1.26</mysql.connector.version>
 	</properties>
 
 	<!-- 项目坐标配置 -->
@@ -52,6 +52,12 @@
 				<version>${JSTL.version}</version>
 			</dependency>
 			<!-- 结束：引入JSTL依赖 -->
+			<!-- 引入MySQL驱动 -->
+			<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>${mysql.connector.version}</version>
+		</dependency>
 
 			<!-- ***** 从这里往下是对三大框架的配置 ***** -->
 			<!-- 开始：Hibernate框架配置 -->
@@ -249,5 +255,6 @@
 	<!-- 模块配置 -->
 	<modules>
 		<module>dftsms-web</module>
-	</modules>
+    <module>common</module>
+  </modules>
 </project>
