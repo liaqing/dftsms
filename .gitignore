@@ -7,3 +7,4 @@ target/
 #移除Windows系统操作word时的临时文件
 ~*.docx
 ~$*.docx
+~*.tmp
