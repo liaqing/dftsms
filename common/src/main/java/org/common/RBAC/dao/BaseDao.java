@@ -1,4 +1,4 @@
-package org.common.dao;
+package org.common.RBAC.dao;
 
 import java.util.List;
 import java.io.Serializable;
