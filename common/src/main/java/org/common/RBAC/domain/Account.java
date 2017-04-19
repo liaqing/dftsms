@@ -15,9 +15,10 @@ import org.hibernate.annotations.GenericGenerator;
 @Entity
 @Table(name = "t_customer")
 public class Account {
-	
+	// 无参数的构造器
 	public Account() {
 	}
+
 	/**
 	 * 账号ID
 	 */
@@ -65,11 +66,10 @@ public class Account {
 	@Column(name = "cus_status")
 	private boolean status;
 	/**
-	 * 保存与图片的关联，这部分暂时还未设计好
-	 * 级联操作为All，如果账户删除则图片也相应应该移除
+	 * 保存与图片的关联，这部分暂时还未设计好 级联操作为All，如果账户删除则图片也相应应该移除
 	 */
-	@OneToOne(targetEntity=Pictures.class,cascade=CascadeType.ALL)
-	@JoinColumn(name="fk_ picture")
+	@OneToOne(targetEntity = Pictures.class, cascade = CascadeType.ALL)
+	@JoinColumn(name = "fk_ picture")
 	Pictures picture;
 	// TODO 账号持久化类与图片管理还没有完成
 

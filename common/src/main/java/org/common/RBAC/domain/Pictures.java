@@ -10,6 +10,7 @@ import javax.persistence.*;
 @Entity
 @Table(name="t_pictures")
 public class Pictures {
+	// 无参数的构造器
 	public Pictures() {
 	}
 	@Id

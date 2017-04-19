@@ -4,13 +4,18 @@ import java.util.HashSet;
 import java.util.Set;
 import javax.persistence.*;
 import org.hibernate.annotations.GenericGenerator;
-
+/**
+ * 
+ * @author fxb fanxiaobin.fxb@qq.com
+ * @creation 2017年4月19日
+ */
 @Entity
 @Table
 public class Role {
+	// 无参数的构造器
 	public Role() {
 	}
-
+	// TODO 由于在Account中使用HashSet保存Role对象，所以需要重写hashCode和equals两个方法
 	@Id
 	@Column(name = "pk_role_id")
 	// 该主键生成器名为uuid，使用Hibernate的uuid策略，
@@ -23,7 +28,6 @@ public class Role {
 	@ManyToMany(targetEntity = Power.class)
 	@JoinTable(name = "t_role_power", joinColumns = @JoinColumn(name = "fk_role", referencedColumnName = "pk_role_id"), inverseJoinColumns = @JoinColumn(name = "fk_power", referencedColumnName = "pk_pow_id"))
 	Set<Power> powers = new HashSet<>();
-
 
 	public String getId() {
 		return id;
