@@ -49,7 +49,7 @@
 5. 为web模块添加server依赖：在web模块上右击 -> Build Path -> Add Library -> 选中Server Runtime -> 选中Tomcat -> finish
 6. 为了保险可以更新一下Maven项目：项目上右击 -> Maven -> Update Project
 
-注意：在Import Project的时候，因为版本差异可能会导致其界面有所不同，我上面的过程是针对Eclipse neon版本的，如果您使用的是稍早些的版本，会出现有三个选项的界面。如果是这种情况，可以参考下面的《**稍早版本导入操作**》
+&#8195;&#8195;注意：在Import Project的时候，因为版本差异可能会导致其界面有所不同，我上面的过程是针对Eclipse neon版本的，如果您使用的是稍早些的版本，会出现有三个选项的界面。如果是这种情况，可以参考下面的《**稍早版本导入操作**》
 
 ***************
 
@@ -65,7 +65,7 @@
 
 ![图片02](https://github.com/fxb577328725/dftsms/blob/master/PictureOf_README/tu_02.png)
 
-注意：其实最简单的方式就是在左上角有一个快捷方式，其图标的右上角是一个加号，点开就会出现透视图管理界面。
+&#8195;&#8195;注意：其实最简单的方式就是在左上角有一个快捷方式，其图标的右上角是一个加号，点开就会出现透视图管理界面。
 
 第三步：点击clone(克隆)链接
 
@@ -83,7 +83,7 @@
 
 ![图片06](https://github.com/fxb577328725/dftsms/blob/master/PictureOf_README/tu_06.png)
 
-注：此处会因为Eclipse的版本有所差异，如果用的是比较新的版本的Eclipse时候会是下面的界面，如果使用较早的Eclipse会进入另外的一种界面，下面会详细介绍。
+&#8195;&#8195;注意：此处会因为Eclipse的版本有所差异，如果用的是比较新的版本的Eclipse时候会是下面的界面，如果使用较早的Eclipse会进入另外的一种界面，下面会详细介绍。
 
 第七步：选择导入详细信息(该步骤选择默认即可)
 
@@ -105,11 +105,11 @@
 
 ## 稍早版本导入操作 ##
 
-如果Eclipse的版本比较，就会出现下面的界面，如下：
+&#8195;&#8195;如果Eclipse的版本比较，就会出现下面的界面，如下：
 
 ![图片08](https://github.com/fxb577328725/dftsms/blob/master/PictureOf_README/tu_11.png)
 
-注意：这一步骤的三种选项都无法正常导入，我们可以直接关闭这一窗口，进入Java或Java EE透视图即可。然后就像导入一个已存在的Maven项目即可。
+&#8195;&#8195;注意：这一步骤的三种选项都无法正常导入，我们可以直接关闭这一窗口，进入Java或Java EE透视图即可。然后就像导入一个已存在的Maven项目即可。
 
 <1> File -> import 打开导入界面
 
@@ -119,7 +119,7 @@
 
 ![图片08](https://github.com/fxb577328725/dftsms/blob/master/PictureOf_README/tu_13.png)
 
-<4> 找到克隆下来的项目，并Finish即可
+<3> 找到克隆下来的项目，并Finish即可
 
 ![图片08](https://github.com/fxb577328725/dftsms/blob/master/PictureOf_README/tu_14.png)
 
