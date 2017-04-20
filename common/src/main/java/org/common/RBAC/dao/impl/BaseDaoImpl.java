@@ -11,39 +11,39 @@ public class BaseDaoImpl<T> implements BaseDao<T> {
 	// DAO组件进行持久化操作底层依赖的SessionFactory组件
 	private SessionFactory sessionFactory;
 
-	// 根据ID加载实体
+	@Override
 	public T get(Class<T> entityClazz, Serializable id) {
 		return (T) getSessionFactory().getCurrentSession().get(entityClazz, id);
 	}
 
-	// 保存实体
+	@Override
 	public Serializable save(T entity) {
 		return getSessionFactory().getCurrentSession().save(entity);
 	}
 
-	// 更新实体
+	@Override
 	public void update(T entity) {
 		getSessionFactory().getCurrentSession().saveOrUpdate(entity);
 	}
 
-	// 删除实体
+	@Override
 	public void delete(T entity) {
 		getSessionFactory().getCurrentSession().delete(entity);
 	}
 
-	// 根据ID删除实体
+	@Override
 	public void delete(Class<T> entityClazz, Serializable id) {
 		getSessionFactory().getCurrentSession()
 				.createQuery("delete " + entityClazz.getSimpleName() + " en where en.id = ?0").setParameter("0", id)
 				.executeUpdate();
 	}
 
-	// 获取所有实体
+	@Override
 	public List<T> findAll(Class<T> entityClazz) {
 		return find("select en from " + entityClazz.getSimpleName() + " en");
 	}
-	// 获取实体总数
 
+	@Override
 	public long findCount(Class<T> entityClazz) {
 		List<?> l = find("select count(*) from " + entityClazz.getSimpleName());
 		// 返回查询得到的实体总数
