@@ -45,48 +45,81 @@
 1. 拷贝当前项目的web URL：[https://github.com/fxb577328725/dftsms.git](https://github.com/fxb577328725/dftsms.git)
 2. 打开git透视图：Window -> perspective -> Open perspective -> Other(其实最简单的是Eclipse左上角的快捷方式)
 3. 将项目克隆下来：选中Clone a Git repository,然后输入URL，以及自己的账号密码，下一步，直到最后可选择性的修改保存路径，并保存即可。
-4. 将项目导入Eclipse：在git透视图中选中克隆项目 -> 右击 -> Import Project ,然后直接finish即可。然后可以切换到Java或JavaEE透视图，即可看到导入的项目
+4. 将项目导入Eclipse：在git透视图中选中克隆项目 -> 右击 -> Import Project ,然后直接finish即可。然后可以切换到Java或JavaEE透视图，即可看到导入的项目。
 5. 为web模块添加server依赖：在web模块上右击 -> Build Path -> Add Library -> 选中Server Runtime -> 选中Tomcat -> finish
 6. 为了保险可以更新一下Maven项目：项目上右击 -> Maven -> Update Project
 
+注意：在Import Project的时候，因为版本差异可能会导致其界面有所不同，我上面的过程是针对Eclipse neon版本的，如果您使用的是稍早些的版本，会出现有三个选项的界面。如果是这种情况，可以参考下面的《**稍早版本导入操作**》
+
 ***************
 
-**图片演示**
+##图片演示##
 
 说明：省略了一些没必要展示的地方，省略部分基本上就是下一步或者finish即可。
 
-第一步：
+第一步：打开透视图管理界面
 
 ![图片01](https://github.com/fxb577328725/dftsms/blob/master/PictureOf_README/tu_01.png)
 
-第二步：
+第二步：找到git透视图
 
 ![图片02](https://github.com/fxb577328725/dftsms/blob/master/PictureOf_README/tu_02.png)
 
-第三步：
+注意：其实最简单的方式就是在左上角有一个快捷方式，其图标的右上角是一个加号，点开就会出现透视图管理界面。
+
+第三步：点击clone(克隆)链接
 
 ![图片03](https://github.com/fxb577328725/dftsms/blob/master/PictureOf_README/tu_03.png)
 
-第四步：
+第四步：输入该项目的URL
 
 ![图片04](https://github.com/fxb577328725/dftsms/blob/master/PictureOf_README/tu_04.png)
 
-第五步：
+第五步：设置克隆项目存放位置
 
 ![图片05](https://github.com/fxb577328725/dftsms/blob/master/PictureOf_README/tu_05.png)
 
-第六步：
+第六步：导入项目到IDE环境中
 
 ![图片06](https://github.com/fxb577328725/dftsms/blob/master/PictureOf_README/tu_06.png)
 
-第七步：
+注：此处会因为Eclipse的版本有所差异，如果用的是比较新的版本的Eclipse时候会是下面的界面，如果使用较早的Eclipse会进入另外的一种界面，下面会详细介绍。
+
+第七步：选择导入详细信息(该步骤选择默认即可)
 
 ![图片07](https://github.com/fxb577328725/dftsms/blob/master/PictureOf_README/tu_07.png)
 
-第八步：
+第八步：为web模块添加环境
 
 ![图片08](https://github.com/fxb577328725/dftsms/blob/master/PictureOf_README/tu_08.png)
 
-第九步：
+第九步：选择Server Runtime
 
 ![图片08](https://github.com/fxb577328725/dftsms/blob/master/PictureOf_README/tu_09.png)
+
+第十步：选择对应的Web容器(此处是Tomcat 8.0)
+
+![图片08](https://github.com/fxb577328725/dftsms/blob/master/PictureOf_README/tu_10.png)
+
+***************
+
+##稍早版本导入操作##
+
+如果Eclipse的版本比较，就会出现下面的界面，如下：
+
+![图片08](https://github.com/fxb577328725/dftsms/blob/master/PictureOf_README/tu_11.png)
+
+注意：这一步骤的三种选项都无法正常导入，我们可以直接关闭这一窗口，进入Java或Java EE透视图即可。然后就像导入一个已存在的Maven项目即可。
+
+<1> File -> import 打开导入界面
+
+![图片08](https://github.com/fxb577328725/dftsms/blob/master/PictureOf_README/tu_12.png)
+
+<2> 选中Existing Maven Project选项
+
+![图片08](https://github.com/fxb577328725/dftsms/blob/master/PictureOf_README/tu_13.png)
+
+<4> 找到克隆下来的项目，并Finish即可
+
+![图片08](https://github.com/fxb577328725/dftsms/blob/master/PictureOf_README/tu_14.png)
+
