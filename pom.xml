@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<!-- 版本的声明，这样做可以一次性统一升级所有地方版本信息 -->
 	<properties>
@@ -8,6 +9,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<!-- 项目中所需依赖版本声明 -->
 		<junit.version>4.12</junit.version>
+		<dbunit.version>2.2</dbunit.version>
 		<hibernate.version>5.1.0.Final</hibernate.version>
 		<spring.version>4.2.5.RELEASE</spring.version>
 		<struts2.version>2.3.32</struts2.version>
@@ -34,6 +36,12 @@
 				<version>${junit.version}</version>
 				<scope>test</scope>
 			</dependency>
+			<!-- 引入DbUnit依赖 -->
+			<dependency>
+				<groupId>dbunit</groupId>
+				<artifactId>dbunit</artifactId>
+				<version>${dbunit.version}</version>
+			</dependency>
 			<!-- 引入URL Rewrite依赖 -->
 			<dependency>
 				<groupId>org.tuckey</groupId>
@@ -54,10 +62,10 @@
 			<!-- 结束：引入JSTL依赖 -->
 			<!-- 引入MySQL驱动 -->
 			<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<version>${mysql.connector.version}</version>
-		</dependency>
+				<groupId>mysql</groupId>
+				<artifactId>mysql-connector-java</artifactId>
+				<version>${mysql.connector.version}</version>
+			</dependency>
 
 			<!-- ***** 从这里往下是对三大框架的配置 ***** -->
 			<!-- 开始：Hibernate框架配置 -->
@@ -255,6 +263,6 @@
 	<!-- 模块配置 -->
 	<modules>
 		<module>dftsms-web</module>
-    <module>common</module>
-  </modules>
+		<module>common</module>
+	</modules>
 </project>

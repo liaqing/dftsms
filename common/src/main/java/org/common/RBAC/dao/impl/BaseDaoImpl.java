@@ -7,6 +7,11 @@ import org.common.RBAC.dao.BaseDao;
 import org.hibernate.Query;
 import org.hibernate.SessionFactory;
 
+/**
+ * BaseDao接口的实现类
+ * @author fxb fanxiaobin.fxb@qq.com
+ * @param <T>
+ */
 public class BaseDaoImpl<T> implements BaseDao<T> {
 	// DAO组件进行持久化操作底层依赖的SessionFactory组件
 	private SessionFactory sessionFactory;

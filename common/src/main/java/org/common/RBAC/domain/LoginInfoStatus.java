@@ -1,7 +1,10 @@
 package org.common.RBAC.domain;
 
 import javax.persistence.*;
-
+/**
+ * 
+ * @author fxb fanxiaobin.fxb@qq.com
+ */
 @Entity
 @Table(name = "t_logininfo_ status")
 public class LoginInfoStatus {

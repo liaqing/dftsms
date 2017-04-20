@@ -5,12 +5,9 @@ import java.io.Serializable;
 
 /**
  * 定义了所有基本操作，具体的DAO组件继承该接口即可
- * 
  * @author fxb fanxiaobin.fxb@qq.com
- * @creation 2017年4月19日
  * @param <T>
  */
-
 public interface BaseDao<T> {
 	/**
 	 * 根据ID加载实体

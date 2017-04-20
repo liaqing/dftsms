@@ -3,7 +3,10 @@ package org.common.RBAC.domain;
 import java.util.Date;
 
 import javax.persistence.*;
-
+/**
+ * 
+ * @author fxb fanxiaobin.fxb@qq.com
+ */
 @Entity
 @Table(name = "t_logininfo")
 public class LoginInfo {
